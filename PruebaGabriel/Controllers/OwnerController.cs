@@ -9,7 +9,8 @@ namespace PruebaGabriel.Controllers
     public class OwnerController : ControllerBase
     {
 
-
+        /*
+         https://www.youtube.com/watch?v=Fbf_ua2t6v4
         private static List<OwnerModel> Owners = new List<OwnerModel>()
        {
                 new OwnerModel
@@ -18,6 +19,7 @@ namespace PruebaGabriel.Controllers
                     Name = "Si funciona"
                 }
         };
+        */
         private readonly DataContext context;
 
         public OwnerController(DataContext context)

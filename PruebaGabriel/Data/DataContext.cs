@@ -11,6 +11,8 @@ namespace PruebaGabriel.Data
         }
 
         public DbSet<OwnerModel> Owner { get; set; }
+        public DbSet<ImagenPropertiModel> ImagenProperty { get; set; }
 
+        public DbSet<PropertyModel> Property { get; set; }
     }
 }
